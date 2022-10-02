@@ -25,7 +25,7 @@ similarity = pickle.load(open('similarity.pkl','rb'))
 st.title("Course Recommender System")
 
 selected_course = st.selectbox(
-    "Search fo a Course",
+    "Search for a Course",
     (coursera_list)
 )
 
